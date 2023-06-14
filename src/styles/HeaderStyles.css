@@ -1,0 +1,27 @@
+.navigation-menu{
+  list-style: none;/*removes the pointers in the navigationbar*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*the css separates the text names to diferent lengths*/
+.navigation-menu li{
+  margin: 0 20px;
+}
+/* the below css changes the color of the text*/
+.navigation-menu li a {
+ text-decoration: none;
+ color: black;
+}
+/*mobile view*/
+.mobile-navigation {
+  list-style: none;
+}
+.mobile-navigation li{
+  margin-top: 20px;
+}
+.mobile-navigation a{
+  text-decoration: none;
+  color: chocolate;
+  font-size: 1.4rem;
+}
