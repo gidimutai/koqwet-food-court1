@@ -29,7 +29,7 @@ const Header = () => {
         fontWeight={'bolder'}
         variant='h5'
         component={'div'}
-        sx={{flexGrow:1}}
+        sx={{flexGrow:1, my:2}}
         >
           KoQwet Food Court
       </Typography> 
@@ -110,9 +110,14 @@ const Header = () => {
             {drawer}
         </Drawer>
       </Box>
+      <Box >
+      <Toolbar/>
+      </Box>
     </Box>
     </>
   )
 }
 
 export default Header
+
+//toolbar in 113 is to call the pages like homepage,contactpage etc
