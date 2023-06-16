@@ -10,7 +10,7 @@ import {
   Typography,
 
   } from '@mui/material'
-  import background from '../images/New folder/backgr.jpg'
+  import background from '../images/food/backgr.jpg'
 
 
 

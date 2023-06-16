@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../components/Layout/Layout'
 import {Link} from 'react-router-dom'
 import '../styles/HomeStyles.css'
-import background from '../images/New folder/backgr.jpg'
+import background from '../images/food/backgr.jpg'
 
 const Home = () => {
   return (
