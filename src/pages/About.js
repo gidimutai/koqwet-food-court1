@@ -3,9 +3,11 @@ import Layout from "../components/Layout/Layout"
 
 const About = () => {
   return (
-    <Layout>
+    <Layout >
+      
       <Box
       sx={{
+        backgroundColor:'black',
         my:15,
         textAlign: 'center',
         p:2,
@@ -35,6 +37,7 @@ const About = () => {
         <p>
         Koqwet food court offers traditional Kenyan cuisine with modern twist. With a cozy and inviting atmosphere, you can enjoy delicious dishes such as Ugali wimbi, Ugali, chapatti, mursik, fish, pilau, nyama choma. Come experience the flavours of Koqwet food court
         </p>
+        
     </Layout>
   )
 }
